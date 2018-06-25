@@ -7,7 +7,25 @@
 		<key>FaceMLKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4222559820AC103800721E9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>422255AC20AC103C00721E9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>422255B720AC103C00721E9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

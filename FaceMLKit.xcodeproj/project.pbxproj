@@ -14,6 +14,11 @@
 		422255A720AC103B00721E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422255A520AC103B00721E9A /* LaunchScreen.storyboard */; };
 		422255B220AC103C00721E9A /* FaceMLKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422255B120AC103C00721E9A /* FaceMLKitTests.swift */; };
 		422255BD20AC103C00721E9A /* FaceMLKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422255BC20AC103C00721E9A /* FaceMLKitUITests.swift */; };
+		422255CB20AC112400721E9A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 422255CA20AC112300721E9A /* GoogleService-Info.plist */; };
+		4223737720E1691A003027D8 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4223737620E1691A003027D8 /* ImageExtension.swift */; };
+		49E0F2526E3011A8A7AA87CA /* Pods_FaceMLKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D747AD1902DE191A0185670F /* Pods_FaceMLKitUITests.framework */; };
+		9139964B64C146D17CD86A68 /* Pods_FaceMLKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D0312443F72254ABD3F9D8 /* Pods_FaceMLKitTests.framework */; };
+		A903967012E4AACBFC7DC37D /* Pods_FaceMLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEAC38A9CA05B4A7549366A /* Pods_FaceMLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		075D6024720599EF564122DC /* Pods-FaceMLKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMLKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMLKitTests/Pods-FaceMLKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		29D318FA3AAD53C152710A39 /* Pods-FaceMLKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMLKitUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMLKitUITests/Pods-FaceMLKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4222559920AC103800721E9A /* FaceMLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceMLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4222559C20AC103900721E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4222559E20AC103900721E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		422255B820AC103C00721E9A /* FaceMLKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMLKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		422255BC20AC103C00721E9A /* FaceMLKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMLKitUITests.swift; sourceTree = "<group>"; };
 		422255BE20AC103C00721E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422255CA20AC112300721E9A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4223737620E1691A003027D8 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		67D0312443F72254ABD3F9D8 /* Pods_FaceMLKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceMLKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEAC38A9CA05B4A7549366A /* Pods_FaceMLKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceMLKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2040D955F4450F3E9ABCF6 /* Pods-FaceMLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMLKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMLKit/Pods-FaceMLKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1638C9C453865168505E3A /* Pods-FaceMLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMLKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMLKit/Pods-FaceMLKit.release.xcconfig"; sourceTree = "<group>"; };
+		A5715C938B6A94678823D773 /* Pods-FaceMLKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMLKitUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMLKitUITests/Pods-FaceMLKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C25CA2A8B6EDA8A6776A728F /* Pods-FaceMLKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceMLKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceMLKitTests/Pods-FaceMLKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D747AD1902DE191A0185670F /* Pods_FaceMLKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceMLKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A903967012E4AACBFC7DC37D /* Pods_FaceMLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9139964B64C146D17CD86A68 /* Pods_FaceMLKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E0F2526E3011A8A7AA87CA /* Pods_FaceMLKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25EB498FDE3102E069700612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E2040D955F4450F3E9ABCF6 /* Pods-FaceMLKit.debug.xcconfig */,
+				9A1638C9C453865168505E3A /* Pods-FaceMLKit.release.xcconfig */,
+				C25CA2A8B6EDA8A6776A728F /* Pods-FaceMLKitTests.debug.xcconfig */,
+				075D6024720599EF564122DC /* Pods-FaceMLKitTests.release.xcconfig */,
+				29D318FA3AAD53C152710A39 /* Pods-FaceMLKitUITests.debug.xcconfig */,
+				A5715C938B6A94678823D773 /* Pods-FaceMLKitUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4222559020AC103800721E9A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				422255B020AC103C00721E9A /* FaceMLKitTests */,
 				422255BB20AC103C00721E9A /* FaceMLKitUITests */,
 				4222559A20AC103800721E9A /* Products */,
+				25EB498FDE3102E069700612 /* Pods */,
+				FA0B73E6FE3EBD25D4E9F2F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +137,8 @@
 				422255A320AC103B00721E9A /* Assets.xcassets */,
 				422255A520AC103B00721E9A /* LaunchScreen.storyboard */,
 				422255A820AC103B00721E9A /* Info.plist */,
+				422255CA20AC112300721E9A /* GoogleService-Info.plist */,
+				4223737620E1691A003027D8 /* ImageExtension.swift */,
 			);
 			path = FaceMLKit;
 			sourceTree = "<group>";
@@ -125,6 +161,16 @@
 			path = FaceMLKitUITests;
 			sourceTree = "<group>";
 		};
+		FA0B73E6FE3EBD25D4E9F2F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CEAC38A9CA05B4A7549366A /* Pods_FaceMLKit.framework */,
+				67D0312443F72254ABD3F9D8 /* Pods_FaceMLKitTests.framework */,
+				D747AD1902DE191A0185670F /* Pods_FaceMLKitUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422255C120AC103C00721E9A /* Build configuration list for PBXNativeTarget "FaceMLKit" */;
 			buildPhases = (
+				D3F3F88813C6DB88F0059ED5 /* [CP] Check Pods Manifest.lock */,
 				4222559520AC103800721E9A /* Sources */,
 				4222559620AC103800721E9A /* Frameworks */,
 				4222559720AC103800721E9A /* Resources */,
+				64E7D27DFD1383019D5B5C68 /* [CP] Embed Pods Frameworks */,
+				14329DC8F8FD05D6C74ED6E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422255C420AC103C00721E9A /* Build configuration list for PBXNativeTarget "FaceMLKitTests" */;
 			buildPhases = (
+				B4F17BEB5EB289DB91730847 /* [CP] Check Pods Manifest.lock */,
 				422255A920AC103C00721E9A /* Sources */,
 				422255AA20AC103C00721E9A /* Frameworks */,
 				422255AB20AC103C00721E9A /* Resources */,
@@ -167,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 422255C720AC103C00721E9A /* Build configuration list for PBXNativeTarget "FaceMLKitUITests" */;
 			buildPhases = (
+				5B289FBE66C67C9DA9759FE4 /* [CP] Check Pods Manifest.lock */,
 				422255B420AC103C00721E9A /* Sources */,
 				422255B520AC103C00721E9A /* Frameworks */,
 				422255B620AC103C00721E9A /* Resources */,
@@ -230,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				422255A720AC103B00721E9A /* LaunchScreen.storyboard in Resources */,
+				422255CB20AC112400721E9A /* GoogleService-Info.plist in Resources */,
 				422255A420AC103B00721E9A /* Assets.xcassets in Resources */,
 				422255A220AC103900721E9A /* Main.storyboard in Resources */,
 			);
@@ -251,6 +303,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14329DC8F8FD05D6C74ED6E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaceMLKit/Pods-FaceMLKit-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVFaceDetectorResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMLKit/Pods-FaceMLKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B289FBE66C67C9DA9759FE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMLKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E7D27DFD1383019D5B5C68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaceMLKit/Pods-FaceMLKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceMLKit/Pods-FaceMLKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F17BEB5EB289DB91730847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMLKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F3F88813C6DB88F0059ED5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceMLKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4222559520AC103800721E9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +413,7 @@
 			files = (
 				4222559F20AC103900721E9A /* ViewController.swift in Sources */,
 				4222559D20AC103900721E9A /* AppDelegate.swift in Sources */,
+				4223737720E1691A003027D8 /* ImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +503,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -407,6 +564,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -428,15 +586,20 @@
 		};
 		422255C220AC103C00721E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2040D955F4450F3E9ABCF6 /* Pods-FaceMLKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceMLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dabe.FaceMLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +609,20 @@
 		};
 		422255C320AC103C00721E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1638C9C453865168505E3A /* Pods-FaceMLKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceMLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dabe.FaceMLKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,6 +632,7 @@
 		};
 		422255C520AC103C00721E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25CA2A8B6EDA8A6776A728F /* Pods-FaceMLKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +654,7 @@
 		};
 		422255C620AC103C00721E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075D6024720599EF564122DC /* Pods-FaceMLKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +676,7 @@
 		};
 		422255C820AC103C00721E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D318FA3AAD53C152710A39 /* Pods-FaceMLKitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +697,7 @@
 		};
 		422255C920AC103C00721E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5715C938B6A94678823D773 /* Pods-FaceMLKitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
